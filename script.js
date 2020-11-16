@@ -94,6 +94,7 @@ eval.addEventListener('click', () => {
         
         case '+' :
           if (anws) {
+            
             screen.value = add(anws, holderOutputTwo);
             anws = add(anws, holderOutputTwo);
             break;
@@ -128,11 +129,14 @@ eval.addEventListener('click', () => {
 
         case '/' :
             if (anws) {
+               
                 screen.value = divide(anws, holderOutputTwo);
                 anws = divide (anws, holderOutputTwo);
                 break;
 
             }
+
+            
             screen.value = divide (holderOutput, holderOutputTwo);
             anws = divide (holderOutput, holderOutputTwo);
             break;

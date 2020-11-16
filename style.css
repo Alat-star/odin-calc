@@ -64,7 +64,7 @@ button {
     font-size: 7vmin;
 }
 
-.op {
+.op, .eop {
     background-color: cornflowerblue;
 }
 
