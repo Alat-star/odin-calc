@@ -22,11 +22,18 @@ background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, F
 
 .input-div{
     display: grid;
-    
+    min-height: 8vmin;
+   
     
     /* justify-content: stretch; */
     /* justify-self: stretch; */
     /* justify-items: stretch; */
+}
+
+input {
+    text-align: center;
+    font-size: 5vmin;
+    font-weight: 900;
 }
 
 .calc-container {
